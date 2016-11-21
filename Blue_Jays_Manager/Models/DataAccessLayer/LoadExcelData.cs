@@ -7,7 +7,7 @@ using System.IO;
 using System.Data;
 using System.Configuration;
 using System.Data.SqlClient;
-using Oracle.ManagedDataAccess.Client; //prefect!!
+using Oracle.ManagedDataAccess.Client; //prefect!! 
 
 namespace Blue_Jays_Manager.Models.DataAccessLayer
 {

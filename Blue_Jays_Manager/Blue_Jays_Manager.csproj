@@ -296,8 +296,8 @@
     </Compile>
     <Compile Include="Models\Correspondence\Email.cs" />
     <Compile Include="Models\DataAccessLayer\AdminUserDataLayer.cs" />
-    <Compile Include="Models\DataAccessLayer\DataRetrieval.cs" />
     <Compile Include="Models\DataAccessLayer\DatabaseUpdate.cs" />
+    <Compile Include="Models\DataAccessLayer\DataRetrieval.cs" />
     <Compile Include="Models\DataAccessLayer\ExceptionLogger.cs" />
     <Compile Include="Models\DataAccessLayer\LoadExcelData.cs" />
     <Compile Include="Models\DataModels\AdminUser.cs" />

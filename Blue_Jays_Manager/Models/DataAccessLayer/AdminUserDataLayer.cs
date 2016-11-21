@@ -18,6 +18,9 @@ namespace Blue_Jays_Manager.Models.DataAccessLayer
         {
             using (OracleConnection conn = new OracleConnection(ConfigurationManager.ConnectionStrings["BlueJaysConnection"].ConnectionString))
             {
+                //Just making a random change to see if this is working....
+                // look next to the file in the solution exlorer...to u see the red check mark?yes... ok that means that there was a changed and its not saved on github....so if we close the file...the other team members will not get the update...
+                // so what we need to do it save it to out local git folder, and then push the hole folder to github......could u go to USer/Guillermo/Source/Repos on your conputer for me
                 OracleCommand cmd = new OracleCommand("spRegisterUser", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
